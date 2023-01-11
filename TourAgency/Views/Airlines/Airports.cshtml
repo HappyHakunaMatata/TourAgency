@@ -1,0 +1,36 @@
+﻿@using TourAgency.Models
+@model List<Airport>
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h1 id="Services">Аеропорты</h1>
+</div>
+<hr class="hr--half" />
+<table class="table table-hover border-yeallow-cream bg-blur table-airport">
+    <thead>
+        <tr>
+            <th class="table-border" scope="col">Аэропорт</th>
+            <th class="table-border" scope="col">Абривеатура</th>
+            <th class="table-border" scope="col">Ссылка</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td class="table-border-color" scope="row">@i.name</td>
+                <td class="table-border-color">@i.symbol</td>
+                <td class="table-border-color">@i.link</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th class="table-border" scope="col"> </th>
+            <th class="table-border" scope="col"> </th>
+            <th class="table-border" scope="col"> </th>
+        </tr>
+    </tfoot>
+</table>

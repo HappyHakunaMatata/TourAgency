@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>7299ddcb-882a-48ca-aab9-c6a73138a949</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.AspNetCore.Identity.UI" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="NETCore.MailKit" />
+    <None Remove="Services\" />
+    <None Remove="Services\Models\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Microsoft.AspNetCore.Authentication.Google" />
+    <None Remove="Google.Apis.Auth.AspNetCore3" />
+    <None Remove="Google.Apis.PeopleService.v1" />
+    <None Remove="Views\User\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.1" />
+    <PackageReference Include="Google.Apis.Auth.AspNetCore3" Version="1.58.0" />
+    <PackageReference Include="Google.Apis.PeopleService.v1" Version="1.58.0.2924" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Models\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="wwwroot\doc\" />
+    <Folder Include="wwwroot\img\Airlines\" />
+    <Folder Include="Views\User\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\img\guest2.jpeg" />
+    <Content Remove="wwwroot\doc\" />
+    <Content Remove="wwwroot\img\Airlines\" />
+  </ItemGroup>
+</Project>

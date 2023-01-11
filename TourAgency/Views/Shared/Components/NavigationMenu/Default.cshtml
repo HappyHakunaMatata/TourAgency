@@ -1,0 +1,117 @@
+﻿@using TourAgency.Models
+@using Microsoft.AspNetCore.Identity
+@using TourAgency.Controllers;
+
+@inject SignInManager<IdentityUser> SignInManager
+@model NavigationMenuViewModel
+@{
+    ViewData["Title"] = "NavigationMenu";
+}
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 nvbr">
+    <div class="container">
+        <a class="navbar-brand" asp-area="" asp-controller="Main" asp-action="Index">
+            <img src="/img/logo.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Страны</a>
+                    <div class="dropdown-menu" data-bs-popper="static">
+                        @foreach (var i in Model.countries)
+                        {
+                            <a class="dropdown-item" asp-area="" asp-controller="Main" asp-action="Development">@i.name</a>
+                        }
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Акции
+                    </a>
+                    <div class="dropdown-menu" data-bs-popper="static">
+                        <a class="dropdown-item" asp-area="" asp-controller="Special" asp-action="Cashback">Cashback!</a>
+                        <a class="dropdown-item" asp-area="" asp-controller="Special" asp-action="Guest">Программа Привлечения Гостей</a>
+                        <a class="dropdown-item" asp-area="" asp-controller="Special" asp-action="Cheap">Бронировать раньше - дешевле!</a>
+                        <a class="dropdown-item" asp-area="" asp-controller="Special" asp-action="Profitable">Отдыхать чаще - выгоднее!</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Авиа
+                    </a>
+                    <div class="dropdown-menu" data-bs-popper="static">
+                        <a class="dropdown-item" asp-area="" asp-controller="Airlines" asp-action="Companies">Авиакомпании</a>
+                        <a class="dropdown-item" asp-area="" asp-controller="Airlines" asp-action="Airports">Аэропорты</a>
+                        <a class="dropdown-item" asp-area="" asp-controller="Airlines" asp-action="Baggage">Утеря багажа</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
+                    <div class="dropdown-menu" data-bs-popper="static">
+                        <a class="dropdown-item" asp-area="" asp-controller="Information" asp-action="About">О компании</a>
+                        <a class="dropdown-item" asp-area="" asp-controller="Information" asp-action="Documents">Документы</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Services" asp-action="Index">Услуги</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Контакты</a>
+                    <div class="dropdown-menu" data-bs-popper="static">
+                        <a class="dropdown-item" asp-area="" asp-controller="Contact" asp-action="Index">Как добраться</a>
+                        <a class="dropdown-item" href="https://wa.me/79689401802">
+                            <img src="/img/whatsapp-256.ico" width="26" border="0">
+                            &nbsp;&nbsp;WhatsApp
+                        </a>
+                        <a class="dropdown-item" href="https://viber.click/79689401802">
+                            <img src="/img/viber-4-256.ico" width="26" border="0">
+                            &nbsp;&nbsp;Viber
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Оплата</a>
+                    <div class="dropdown-menu" data-bs-popper="static">
+                        <a class="dropdown-item" asp-area="" asp-controller="Payment" asp-action="Index">Об оплате</a>
+                        <a class="dropdown-item" asp-area="" asp-controller="ShopCart" asp-action="Index">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16" font-weight="900" color="#c76d2c">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                            &nbsp;&nbsp;Корзина
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            @{
+                if (SignInManager.IsSignedIn(User))
+                {
+                    <ul class="navbar-nav d-flex justify-content-end navbar-ul">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Выйти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark navbart-a">
+                                <img src="@Model.photo" width="26" border="0">&nbsp;@Model.name
+                            </a>
+                        </li>
+                    </ul>
+                }
+                else
+                {
+                    <ul class="navbar-nav d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Войти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Регистрация</a>
+                        </li>
+                    </ul>
+                }
+            }
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,6 @@
+﻿@model Google.Apis.PeopleService.v1.Data.Person
+
+@if (Model != null)
+    {
+    <p>User name: @Model.Names.FirstOrDefault()?.DisplayName</p>
+    }

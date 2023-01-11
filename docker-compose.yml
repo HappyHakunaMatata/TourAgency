@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  touragency:
+    image: ${DOCKER_REGISTRY-}touragency
+    build:
+      context: .
+      dockerfile: TourAgency/Dockerfile
+    links:
+      - 'TourAgencyDB:TourAgencyDB'
+    depends_on:
+      - 'TourAgencyDB'
+    ports:
+      - '60443:443'
+      - '60112:80'
+
+  TourAgencyDB:
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Admin:0000
+    ports:
+      - '104:1433'
+      - '443:1433'
+    container_name: TourAgencyDB
+    hostname: TourAgencyDB
+    image: 'mcr.microsoft.com/mssql/server:2022-latest'

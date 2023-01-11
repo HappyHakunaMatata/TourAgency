@@ -1,0 +1,19 @@
+﻿@model ShopCartViewModel
+<div class="container">
+    @foreach (var j in Model.shopCart.shopCartItems)
+    {
+        <div class="card border-yeallow-cream bg-blur mb-3 shadow" style="max-width: 50rem;">
+            <div class="card-body">
+                <p class="card-text">Заезд: @j.product.trip.date</p>
+                <h4 class="card-title">@j.product.hotel.name</h4>
+                <p class="card-text">@j.product.duration ночей</p>
+                <p class="card-text">@j.product.price.ToString("c") руб.</p>
+            </div>
+        </div>
+        <a class="btn btn-success" asp-controller="Order" asp-action="Delete" asp-route-id="@j.id">Удалить</a>
+    }
+    <hr />
+    <a class="btn btn-success" asp-controller="Order" asp-action="CheckOut">Оплатить</a>
+    <a class="btn btn-danger" asp-controller="Order" asp-action="Clear">Очистить корзину</a>
+</div>
+

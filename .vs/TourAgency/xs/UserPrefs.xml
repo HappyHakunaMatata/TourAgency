@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{4A4F65F0-2BB4-42CA-8EBA-394F1CEE6328}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TourAgency PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TourAgency/Views/Shared/Components/NavigationMenu/Default.cshtml">
+    <Files>
+      <File FileName="TourAgency/Controllers/AccountController.cs" />
+      <File FileName="TourAgency/Views/Shared/Components/NavigationMenu/Default.cshtml" Line="88" Column="18" />
+      <File FileName="TourAgency/ViewComponents/NavigationMenuViewComponents.cs" />
+      <File FileName="TourAgency/ViewModels/NavigationMenuViewModel.cs" />
+      <File FileName="TourAgency/wwwroot/css/site.css" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TourAgency" expanded="True">
+            <Node name="TourAgency" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="ViewComponents" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="NavigationMenu" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="User" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

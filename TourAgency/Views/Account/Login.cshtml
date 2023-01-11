@@ -1,0 +1,64 @@
+﻿@using TourAgency.Models
+@model UserLoginRequest
+    <div>
+        <div class="container mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <h1 class="mb-3">Registration</h1>
+                    <form asp-action="Login" method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="@Model.Email">Email Address</label>
+                            <input type="text" asp-for="@Model.Email" class="form-control" />
+                            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" asp-for="@Model.Password">Password</label>
+                            <input type="password" asp-for="@Model.Password" class="form-control" />
+                            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3 check-form">
+                            <input type="checkbox" asp-for="@Model.RememberMe" class="form-check-input" />
+                            <label class="form-check-label" asp-for="@Model.RememberMe">Remember me</label>
+                        </div>
+                        <div class="form-group">
+                            <a asp-action="ForgotPassword">Forgot Password</a>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-success" type="submit">Войти</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <h1>External Login</h1>
+                    <hr />
+                    @{
+                        if (Model.ExternalLogins.Count == 0)
+                        {
+                            <div>No external logins configured</div>
+                        }
+                        else
+                        {
+                            <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+                                <div>
+                                    @foreach (var provider in Model.ExternalLogins)
+                                    {
+                                        <button type="submit" class="btn btn-primary" style="width:auto"
+                                                name="provider" value="@provider.Name"
+                                                title="Login using your @provider.DisplayName account">
+                                            @provider.DisplayName
+                                        </button>
+                                    }
+                                </div>
+                            </form>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
