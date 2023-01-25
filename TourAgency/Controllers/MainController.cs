@@ -22,7 +22,7 @@ namespace TourAgency.Controllers
         private readonly IOffer _offer;
         private readonly AppDbContext _context;
 
-        public MainController(IOffer offer, AppDbContext context)
+        public MainController(IOffer offer, AppDbContext context, IEmailSender emailSender)
         {
             _offer = offer;
             _context = context;
@@ -40,7 +40,6 @@ namespace TourAgency.Controllers
                 .Include(p => p.holidayType)
                 .Include(p => p.trip).ThenInclude(a => a.aircompany).ThenInclude(a => a.airport).ThenInclude(a => a.city)
                 .ToListAsync();
-            
             return View(product);
         }
 

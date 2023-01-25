@@ -1,7 +1,8 @@
 ﻿@using TourAgency.Models
+@using System.Globalization
 @model List<Product>
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Главная страница";
     int counter = 3;
     var value = Model.GroupBy(_ => counter++ / 3);
 }
@@ -10,11 +11,11 @@
     {
         @foreach (var j in i)
         {
-                <div class="col-lg-4">
+            <div class="col-lg-4">
                 <div class="bs-component">
-                <div class="card border-yeallow-cream bg-blur mb-3" style="max-width: 50rem;">
-                    <img src="/img/Hotel/@j.hotel.photo" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle" />
-                            <div class="card-header card-header-blur">@j.hotel.region.name</div>
+                    <div class="card border-yeallow-cream bg-blur mb-3" style="max-width: 50rem;">
+                        <img src="/img/Hotel/@String.Format($"{j.hotel.photo}.webp")" class="d-block user-select-none" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle" />
+                        <div class="card-header card-header-blur">@j.hotel.region.name</div>
                         <div class="card-body">
                             <p class="card-text">Заезд: @j.trip.date.ToString("MM/dd/yyyy")</p>
                             <h4 class="card-title">@j.hotel.name</h4>
@@ -26,65 +27,64 @@
                             <p class="card-text">Трансфер: @j.hotel.transfer.type</p>
                             <p class="card-text">@j.duration.ToString($"0") ночей</p>
                             <p class="card-text">@j.hotel.roomService.name</p>
-                            <p class="card-text">@j.price.ToString("C")</p>
+                            <p class="card-text">@String.Format(new CultureInfo("ru-RU"), "{0:C0}", @j.price)</p>
                             <p class="card-text">@j.holidayType.name</p>
                         </div>
-                            <div class="card-footer text-muted card-footer-blur">
-                                <p class="card-text">@j.about.info</p>
-                            </div>
+                        <div class="card-footer card-footer-blur">
+                            <p class="card-text ">@j.about.info</p>
                         </div>
-                        </div>
-                            <p><a class="btn btn-warning" asp-controller="ShopCart" asp-action="AddToCart" asp-route-id="@j.id">Добавить</a></p>
-                        </div>
-                }
-            }
-        </div>
-
-            <p align="justify">
-                <strong>Преимущества Группы компаний "ПУТЕШЕСТВУЙ!":</strong>
-            </p>
-            <ul>
-                <li>
-                    Мы сами создаем программы для самых взыскательных клиентов;
-                </li>
-                <li>
-                    Мы успешно работаем в туризме с 1989 года;
-                </li>
-                <li>
-                    Мы поддерживаем многолетние прямые связи с авиакомпаниями и отелями;
-                </li>
-                <li>
-                    У нас действуют специальные акции для снижения стоимости Вашей программы;
-                </li>
-                <p align="justify">
-                    Все это  позволяет предложить Вам, пожалуй,
-                    <strong>лучшие ценовые предложения на программы</strong>
-                    в самые интересные страны мира:
-                    <a href="" target="_blank">Бразилия</a>,
-                    <a href="" target="_blank">Вьетнам</a>,
-                    <a href="" target="_blank">Греция</a>,
-                    <a href="" target="_blank">Доминикана</a>,
-                    <a href="" target="_blank">Израиль</a>,
-                    <a href="" target="_blank">Индонезия</a>,
-                    <a href="" target="_blank">Испания</a>,
-                    <a href="" target="_blank">Италия</a>,
-                    <a href="" target="_blank">Камбоджа</a>,
-                    <a href="" target="_blank">Китай</a>,
-                    <a href="" target="_blank">Куба</a>,
-                    <a href="" target="_blank">Маврикий</a>,
-                    <a href="" target="_blank">Малайзия</a>,
-                    <a href="" target="_blank">Мальдивы</a>,
-                    <a href="" target="_blank">Мексика</a>,
-                    <a href="" target="_blank">ОАЭ</a>,
-                    <a href="" target="_blank">Россия</a>,
-                    <a href="" target="_blank">Сейшелы</a>,
-                    <a href="" target="_blank">Сингапур</a>,
-                    <a href="" target="_blank">Таиланд</a>,
-                    <a href="" target="_blank">Филиппины</a>,
-                    <a href="" target="_blank">Франция</a>,
-                    <a href="" target="_blank">Шри Ланка</a>,
-                    <a href="" target="_blank">Ямайка</a> и другие страны.
-                </p>
-            </ul>
+                    </div>
+                </div>
+                <p><a class="btn btn-warning" asp-controller="ShopCart" asp-action="AddToCart" asp-route-id="@j.id">Добавить</a></p>
+            </div>
+        }
+    }
+</div>
+<p align="justify">
+    <strong>Преимущества Группы компаний "ПУТЕШЕСТВУЙ!":</strong>
+</p>
+<ul>
+    <li>
+        Мы сами создаем программы для самых взыскательных клиентов;
+    </li>
+    <li>
+        Мы успешно работаем в туризме с 1989 года;
+    </li>
+    <li>
+        Мы поддерживаем многолетние прямые связи с авиакомпаниями и отелями;
+    </li>
+    <li>
+        У нас действуют специальные акции для снижения стоимости Вашей программы;
+    </li>
+    <p align="justify">
+        Все это  позволяет предложить Вам, пожалуй,
+        <strong>лучшие ценовые предложения на программы</strong>
+        в самые интересные страны мира:
+        <a href="" target="_blank">Бразилия</a>,
+        <a href="" target="_blank">Вьетнам</a>,
+        <a href="" target="_blank">Греция</a>,
+        <a href="" target="_blank">Доминикана</a>,
+        <a href="" target="_blank">Израиль</a>,
+        <a href="" target="_blank">Индонезия</a>,
+        <a href="" target="_blank">Испания</a>,
+        <a href="" target="_blank">Италия</a>,
+        <a href="" target="_blank">Камбоджа</a>,
+        <a href="" target="_blank">Китай</a>,
+        <a href="" target="_blank">Куба</a>,
+        <a href="" target="_blank">Маврикий</a>,
+        <a href="" target="_blank">Малайзия</a>,
+        <a href="" target="_blank">Мальдивы</a>,
+        <a href="" target="_blank">Мексика</a>,
+        <a href="" target="_blank">ОАЭ</a>,
+        <a href="" target="_blank">Россия</a>,
+        <a href="" target="_blank">Сейшелы</a>,
+        <a href="" target="_blank">Сингапур</a>,
+        <a href="" target="_blank">Таиланд</a>,
+        <a href="" target="_blank">Филиппины</a>,
+        <a href="" target="_blank">Франция</a>,
+        <a href="" target="_blank">Шри Ланка</a>,
+        <a href="" target="_blank">Ямайка</a> и другие страны.
+    </p>
+</ul>
 
 

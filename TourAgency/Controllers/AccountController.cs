@@ -61,7 +61,7 @@ namespace TourAgency.Controllers
                 if (result.Succeeded)
                 {
                     await _signInManager.SignInAsync(user, false);
-                    return RedirectToAction("Index", "Main");
+                    return RedirectToAction(nameof(Complete));
                 }
                 //ModelState.AddModelError("", "Username or password is incorrect");
                 foreach (var error in result.Errors)
@@ -88,25 +88,21 @@ namespace TourAgency.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(UserLoginRequest request, string? returnUrl)
         {
-
             if (ModelState.IsValid)
             {
                 var result = await _signInManager.PasswordSignInAsync(request.Email, request.Password, request.RememberMe, false);
-                await AddClaims(request.Email);
 
 
                 if (result.Succeeded)
                 {
-                    if (result.Succeeded)
+                    await AddClaims(request.Email);
+                    if (!string.IsNullOrEmpty(returnUrl))
                     {
-                        if (!string.IsNullOrEmpty(returnUrl))
-                        {
-                            return Redirect(returnUrl);
-                        }
-                        else
-                        {
-                            return RedirectToAction("Index", "Main");
-                        }
+                        return Redirect(returnUrl);
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Main");
                     }
                 }
             }
@@ -117,7 +113,7 @@ namespace TourAgency.Controllers
         [HttpPost]
         public IActionResult ExternalLogin(string provider, string returnUrl)
         {
-            var redirectUrl = Url.Action("ExternalLoginCallback", "Account", new { ReturnUrl = returnUrl });
+            var redirectUrl = Url.Action("ExternalLoginCallback", "Account", new { ReturnUrl = returnUrl }, protocol: "https");
             var properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
             return new ChallengeResult(provider, properties);
         }
@@ -153,17 +149,8 @@ namespace TourAgency.Controllers
             var signInResult = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider,info.ProviderKey, isPersistent: false, bypassTwoFactor: true);
             if (signInResult.Succeeded)
             {
-                //var email = info.Principal.Claims.FirstOrDefault(m => m.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress").Value;
                 HttpContext.Session.SetString("Name", info.Principal.Claims.FirstOrDefault(m => m.Type == "urn:google:name").Value);
                 HttpContext.Session.SetString("Photo", info.Principal.Claims.FirstOrDefault(m => m.Type == "urn:google:picture").Value);
-
-                /*var user = await _UserManager.FindByEmailAsync(email);
-                var claims = new List<Claim>(){
-                    info.Principal.Claims.FirstOrDefault(m => m.Type == "urn:google:name"),
-                    info.Principal.Claims.FirstOrDefault(m => m.Type == "urn:google:picture"),
-                    new Claim("Provider",info.Principal.Claims.FirstOrDefault().Issuer)
-                };
-                await _UserManager.AddClaimsAsync(user,claims);*/
 
                 Console.WriteLine("Succeeded");
                 return LocalRedirect(returnUrl);
@@ -231,7 +218,7 @@ namespace TourAgency.Controllers
                 else
                 {
                     var token = await _UserManager.GeneratePasswordResetTokenAsync(user);
-                    var callback = Url.Action(nameof(ResetPassword), "Account", new { token, email = user.Email }, Request.Scheme);
+                    var callback = Url.Action(nameof(ResetPassword), "Account", new { token, email = user.Email }, protocol: "https");
                     var message = new Message(new string[] { user.Email }, "Reset password token", callback, null);
                     await _emailSender.SendEmailAsync(message);
                     return RedirectToAction(nameof(ForgotPasswordConfirmation));
@@ -279,10 +266,10 @@ namespace TourAgency.Controllers
             return View();
         }
 
-        public IActionResult Complete(string message)
+        public IActionResult Complete()
         {
-            ViewBag.Message = message;
-            return View();
+            string message = "Регистрация пройдена";
+            return View("_Complete", message);
         }
 
         private async Task AddClaims(string email)

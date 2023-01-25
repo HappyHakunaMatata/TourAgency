@@ -24,3 +24,7 @@
 /Users/main/Desktop/TourAgency/bin/Debug/MailKit.dll
 /Users/main/Desktop/TourAgency/bin/Debug/BouncyCastle.Crypto.dll
 /Users/main/Desktop/TourAgency/bin/Debug/Microsoft.AspNetCore.Authentication.Google.dll
+/Users/main/Desktop/TourAgency/bin/Debug/Google.Apis.PeopleService.v1.dll
+/Users/main/Desktop/TourAgency/bin/Debug/Google.Apis.dll
+/Users/main/Desktop/TourAgency/bin/Debug/Google.Apis.Core.dll
+/Users/main/Desktop/TourAgency/bin/Debug/Newtonsoft.Json.dll

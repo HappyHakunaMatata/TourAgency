@@ -11,16 +11,22 @@ services:
     depends_on:
       - 'TourAgencyDB'
     ports:
-      - '60443:443'
-      - '60112:80'
+      - '443:443'
+      - '80:80'
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Admin:0000
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ~/.aspnet/https:/https:ro
 
   TourAgencyDB:
     environment:
       - ACCEPT_EULA=Y
       - MSSQL_SA_PASSWORD=Admin:0000
     ports:
-      - '104:1433'
-      - '443:1433'
+      - '1433:1433'
     container_name: TourAgencyDB
     hostname: TourAgencyDB
-    image: 'mcr.microsoft.com/mssql/server:2022-latest'
+    image: 'touragencydb:latest'

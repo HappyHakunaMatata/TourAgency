@@ -11,7 +11,7 @@ namespace TourAgency.ViewModels
 	{
 		public List<Country> countries { get; set; }
 		public string name { get; set; }
-		public string photo { get; set; } = "/img/user-icon.svg";
+		public string photo { get; set; } 
     }
 }
 

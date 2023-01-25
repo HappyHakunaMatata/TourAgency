@@ -101,60 +101,144 @@
       "PackagePath": "staticwebassets/img/Hotel/.DS_Store"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/LUX* South Ari Atoll, Maldives.jpeg",
-      "PackagePath": "staticwebassets/img/Hotel/LUX* South Ari Atoll, Maldives.jpeg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/LUX* South Ari Atoll, Maldives.webp",
+      "PackagePath": "staticwebassets/img/Hotel/LUX* South Ari Atoll, Maldives.webp"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Malahini Kuda Bandos Resort.jpeg",
-      "PackagePath": "staticwebassets/img/Hotel/Malahini Kuda Bandos Resort.jpeg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Malahini Kuda Bandos Resort.webp",
+      "PackagePath": "staticwebassets/img/Hotel/Malahini Kuda Bandos Resort.webp"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Nika Island Maldives.jpeg",
-      "PackagePath": "staticwebassets/img/Hotel/Nika Island Maldives.jpeg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Nika Island Maldives.webp",
+      "PackagePath": "staticwebassets/img/Hotel/Nika Island Maldives.webp"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Sun Siyam Iru Fushi Maldives.jpeg",
-      "PackagePath": "staticwebassets/img/Hotel/Sun Siyam Iru Fushi Maldives.jpeg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Original/LUX* South Ari Atoll, Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Original/LUX* South Ari Atoll, Maldives.jpeg"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Sun Siyam World Maldives.jpeg",
-      "PackagePath": "staticwebassets/img/Hotel/Sun Siyam World Maldives.jpeg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Original/Malahini Kuda Bandos Resort.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Original/Malahini Kuda Bandos Resort.jpeg"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/background.jpg",
-      "PackagePath": "staticwebassets/img/background.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Original/Nika Island Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Original/Nika Island Maldives.jpeg"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/beach.jpg",
-      "PackagePath": "staticwebassets/img/beach.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Original/Sun Siyam Iru Fushi Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Original/Sun Siyam Iru Fushi Maldives.jpeg"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/brazil.jpg",
-      "PackagePath": "staticwebassets/img/brazil.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Original/Sun Siyam World Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Original/Sun Siyam World Maldives.jpeg"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/cashback.jpeg",
-      "PackagePath": "staticwebassets/img/cashback.jpeg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Sun Siyam Iru Fushi Maldives.webp",
+      "PackagePath": "staticwebassets/img/Hotel/Sun Siyam Iru Fushi Maldives.webp"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/diving.jpg",
-      "PackagePath": "staticwebassets/img/diving.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Sun Siyam World Maldives.webp",
+      "PackagePath": "staticwebassets/img/Hotel/Sun Siyam World Maldives.webp"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/dubai.jpg",
-      "PackagePath": "staticwebassets/img/dubai.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/.DS_Store",
+      "PackagePath": "staticwebassets/img/Original/.DS_Store"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest1.png",
-      "PackagePath": "staticwebassets/img/guest1.png"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/background.jpg",
+      "PackagePath": "staticwebassets/img/Original/background.jpg"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest3.png",
-      "PackagePath": "staticwebassets/img/guest3.png"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/beach.jpg",
+      "PackagePath": "staticwebassets/img/Original/beach.jpg"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest4.png",
-      "PackagePath": "staticwebassets/img/guest4.png"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/brazil.jpg",
+      "PackagePath": "staticwebassets/img/Original/brazil.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/cashback.jpeg",
+      "PackagePath": "staticwebassets/img/Original/cashback.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/diving.jpg",
+      "PackagePath": "staticwebassets/img/Original/diving.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/dubai.jpg",
+      "PackagePath": "staticwebassets/img/Original/dubai.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/guest1.png",
+      "PackagePath": "staticwebassets/img/Original/guest1.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/guest2.jpeg",
+      "PackagePath": "staticwebassets/img/Original/guest2.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/guest3.png",
+      "PackagePath": "staticwebassets/img/Original/guest3.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/guest4.png",
+      "PackagePath": "staticwebassets/img/Original/guest4.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/milan.jpg",
+      "PackagePath": "staticwebassets/img/Original/milan.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/safari.jpg",
+      "PackagePath": "staticwebassets/img/Original/safari.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/thai.jpg",
+      "PackagePath": "staticwebassets/img/Original/thai.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Original/wedding.jpg",
+      "PackagePath": "staticwebassets/img/Original/wedding.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/background.webp",
+      "PackagePath": "staticwebassets/img/background.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/beach.webp",
+      "PackagePath": "staticwebassets/img/beach.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/brazil.webp",
+      "PackagePath": "staticwebassets/img/brazil.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/cashback.webp",
+      "PackagePath": "staticwebassets/img/cashback.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/diving.webp",
+      "PackagePath": "staticwebassets/img/diving.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/dubai.webp",
+      "PackagePath": "staticwebassets/img/dubai.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest1.webp",
+      "PackagePath": "staticwebassets/img/guest1.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest2.webp",
+      "PackagePath": "staticwebassets/img/guest2.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest3.webp",
+      "PackagePath": "staticwebassets/img/guest3.webp"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest4.webp",
+      "PackagePath": "staticwebassets/img/guest4.webp"
     },
     {
       "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/ins_01.jpeg",
@@ -173,16 +257,16 @@
       "PackagePath": "staticwebassets/img/logo.png"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/milan.jpg",
-      "PackagePath": "staticwebassets/img/milan.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/milan.webp",
+      "PackagePath": "staticwebassets/img/milan.webp"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/safari.jpg",
-      "PackagePath": "staticwebassets/img/safari.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/safari.webp",
+      "PackagePath": "staticwebassets/img/safari.webp"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/thai.jpg",
-      "PackagePath": "staticwebassets/img/thai.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/thai.webp",
+      "PackagePath": "staticwebassets/img/thai.webp"
     },
     {
       "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/user-icon.svg",
@@ -193,8 +277,8 @@
       "PackagePath": "staticwebassets/img/viber-4-256.ico"
     },
     {
-      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/wedding.jpg",
-      "PackagePath": "staticwebassets/img/wedding.jpg"
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/wedding.webp",
+      "PackagePath": "staticwebassets/img/wedding.webp"
     },
     {
       "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/whatsapp-256.ico",

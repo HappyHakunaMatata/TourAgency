@@ -44,7 +44,6 @@ namespace TourAgency.ViewComponents
             if (HttpContext.User.Identity.IsAuthenticated)
             {
                 var name = HttpContext.Session.GetString("Name");
-                Console.WriteLine(HttpContext.Session.GetString("Name"));
                 ClaimsPrincipal claimsPrincipal = HttpContext.User;
                 if (name != null)
                 {
@@ -54,6 +53,7 @@ namespace TourAgency.ViewComponents
                 else
                 {
                     navigationMenuViewModel.name = HttpContext.User.Identity.Name;
+                    navigationMenuViewModel.photo = "/img/user-icon.svg";
                 }
             }
             else

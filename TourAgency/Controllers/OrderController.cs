@@ -76,8 +76,8 @@ namespace TourAgency.Controllers
         
         public IActionResult Complete()
         {
-            ViewBag.Message = "Заказ создан!";
-            return View();
+            string message = "Заказ создан!";
+            return View("_Complete", message);
         }
 
     }

@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/obj/Release/net7.0/scopedcss/projectbundle/TourAgency.bundle.scp.css",
+      "PackagePath": "staticwebassets/TourAgency.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/doc/dogovor1.pdf",
+      "PackagePath": "staticwebassets/doc/dogovor1.pdf"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/.DS_Store",
+      "PackagePath": "staticwebassets/font/.DS_Store"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garamond-bold/GARMNDB.ttf",
+      "PackagePath": "staticwebassets/font/garamond-bold/GARMNDB.ttf"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garamond-bold/garamond-bold.png",
+      "PackagePath": "staticwebassets/font/garamond-bold/garamond-bold.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garamond-bold/garmond.ttf",
+      "PackagePath": "staticwebassets/font/garamond-bold/garmond.ttf"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garamond-bold/libfreefonts.txt",
+      "PackagePath": "staticwebassets/font/garamond-bold/libfreefonts.txt"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garamondregular/GaramondRegular.ttf",
+      "PackagePath": "staticwebassets/font/garamondregular/GaramondRegular.ttf"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garamondregular/garamondregular.png",
+      "PackagePath": "staticwebassets/font/garamondregular/garamondregular.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garamondregular/libfreefonts.txt",
+      "PackagePath": "staticwebassets/font/garamondregular/libfreefonts.txt"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garnarb/GARNARB.TTF",
+      "PackagePath": "staticwebassets/font/garnarb/GARNARB.TTF"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garnarb/garnarb.png",
+      "PackagePath": "staticwebassets/font/garnarb/garnarb.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garnarb/libfreefonts.txt",
+      "PackagePath": "staticwebassets/font/garnarb/libfreefonts.txt"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garnari/GARNARI.TTF",
+      "PackagePath": "staticwebassets/font/garnari/GARNARI.TTF"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garnari/garnari.png",
+      "PackagePath": "staticwebassets/font/garnari/garnari.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/garnari/libfreefonts.txt",
+      "PackagePath": "staticwebassets/font/garnari/libfreefonts.txt"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/green-nature/GREENNATURE.ttf",
+      "PackagePath": "staticwebassets/font/green-nature/GREENNATURE.ttf"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/font/hello-summer/HelloSummerPersonalUse.ttf",
+      "PackagePath": "staticwebassets/font/hello-summer/HelloSummerPersonalUse.ttf"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Airlines/.DS_Store",
+      "PackagePath": "staticwebassets/img/Airlines/.DS_Store"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Airlines/Aeroflot.jpeg",
+      "PackagePath": "staticwebassets/img/Airlines/Aeroflot.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/.DS_Store",
+      "PackagePath": "staticwebassets/img/Hotel/.DS_Store"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/LUX* South Ari Atoll, Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/LUX* South Ari Atoll, Maldives.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Malahini Kuda Bandos Resort.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Malahini Kuda Bandos Resort.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Nika Island Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Nika Island Maldives.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Sun Siyam Iru Fushi Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Sun Siyam Iru Fushi Maldives.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/Hotel/Sun Siyam World Maldives.jpeg",
+      "PackagePath": "staticwebassets/img/Hotel/Sun Siyam World Maldives.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/background.jpg",
+      "PackagePath": "staticwebassets/img/background.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/beach.jpg",
+      "PackagePath": "staticwebassets/img/beach.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/brazil.jpg",
+      "PackagePath": "staticwebassets/img/brazil.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/cashback.jpeg",
+      "PackagePath": "staticwebassets/img/cashback.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/diving.jpg",
+      "PackagePath": "staticwebassets/img/diving.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/dubai.jpg",
+      "PackagePath": "staticwebassets/img/dubai.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest1.png",
+      "PackagePath": "staticwebassets/img/guest1.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest3.png",
+      "PackagePath": "staticwebassets/img/guest3.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/guest4.png",
+      "PackagePath": "staticwebassets/img/guest4.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/ins_01.jpeg",
+      "PackagePath": "staticwebassets/img/ins_01.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/ins_03.jpeg",
+      "PackagePath": "staticwebassets/img/ins_03.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/ins_04.jpeg",
+      "PackagePath": "staticwebassets/img/ins_04.jpeg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/milan.jpg",
+      "PackagePath": "staticwebassets/img/milan.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/safari.jpg",
+      "PackagePath": "staticwebassets/img/safari.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/thai.jpg",
+      "PackagePath": "staticwebassets/img/thai.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/user-icon.svg",
+      "PackagePath": "staticwebassets/img/user-icon.svg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/viber-4-256.ico",
+      "PackagePath": "staticwebassets/img/viber-4-256.ico"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/wedding.jpg",
+      "PackagePath": "staticwebassets/img/wedding.jpg"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/img/whatsapp-256.ico",
+      "PackagePath": "staticwebassets/img/whatsapp-256.ico"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/js/index.min.js",
+      "PackagePath": "staticwebassets/js/index.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/js/map.js",
+      "PackagePath": "staticwebassets/js/map.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/main/Desktop/TourAgency/TourAgency/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.TourAgency.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.TourAgency.props",
+      "PackagePath": "build\\TourAgency.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.TourAgency.props",
+      "PackagePath": "buildMultiTargeting\\TourAgency.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.TourAgency.props",
+      "PackagePath": "buildTransitive\\TourAgency.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

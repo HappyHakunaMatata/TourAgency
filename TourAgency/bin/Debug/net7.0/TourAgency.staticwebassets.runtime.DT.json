@@ -27,6 +27,20 @@
         "Asset": null,
         "Patterns": null
       },
+      "doc": {
+        "Children": {
+          "dogovor1.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "doc/dogovor1.pdf"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      },
       "favicon.ico": {
         "Children": null,
         "Asset": {
@@ -172,6 +186,34 @@
             },
             "Asset": null,
             "Patterns": null
+          },
+          "green-nature": {
+            "Children": {
+              "GREENNATURE.ttf": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "font/green-nature/GREENNATURE.ttf"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          },
+          "hello-summer": {
+            "Children": {
+              "HelloSummerPersonalUse.ttf": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "font/hello-summer/HelloSummerPersonalUse.ttf"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
           }
         },
         "Asset": null,
@@ -187,75 +229,105 @@
             },
             "Patterns": null
           },
-          "1x3.jpeg": {
+          "Airlines": {
+            "Children": {
+              ".DS_Store": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Airlines/.DS_Store"
+                },
+                "Patterns": null
+              },
+              "Aeroflot.jpeg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Airlines/Aeroflot.jpeg"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          },
+          "background.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/1x3.jpeg"
+              "SubPath": "img/background.webp"
             },
             "Patterns": null
           },
-          "23171d79-acc1-47c3-bb2a-81364397bc84.JPG": {
+          "beach.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/23171d79-acc1-47c3-bb2a-81364397bc84.JPG"
+              "SubPath": "img/beach.webp"
             },
             "Patterns": null
           },
-          "alf_in_office.jpeg": {
+          "brazil.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/alf_in_office.jpeg"
+              "SubPath": "img/brazil.webp"
             },
             "Patterns": null
           },
-          "background.jpg": {
+          "cashback.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/background.jpg"
+              "SubPath": "img/cashback.webp"
             },
             "Patterns": null
           },
-          "cashback(1).jpeg": {
+          "diving.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/cashback(1).jpeg"
+              "SubPath": "img/diving.webp"
             },
             "Patterns": null
           },
-          "dogovor1.pdf": {
+          "dubai.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/dogovor1.pdf"
+              "SubPath": "img/dubai.webp"
             },
             "Patterns": null
           },
-          "early700.jpeg": {
+          "guest1.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/early700.jpeg"
+              "SubPath": "img/guest1.webp"
             },
             "Patterns": null
           },
-          "enterance-small(1).jpeg": {
+          "guest2.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/enterance-small(1).jpeg"
+              "SubPath": "img/guest2.webp"
             },
             "Patterns": null
           },
-          "gift.jpeg": {
+          "guest3.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/gift.jpeg"
+              "SubPath": "img/guest3.webp"
+            },
+            "Patterns": null
+          },
+          "guest4.webp": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "img/guest4.webp"
             },
             "Patterns": null
           },
@@ -269,43 +341,89 @@
                 },
                 "Patterns": null
               },
-              "LUX* South Ari Atoll, Maldives.jpeg": {
+              "LUX* South Ari Atoll, Maldives.webp": {
                 "Children": null,
                 "Asset": {
                   "ContentRootIndex": 0,
-                  "SubPath": "img/Hotel/LUX* South Ari Atoll, Maldives.jpeg"
+                  "SubPath": "img/Hotel/LUX* South Ari Atoll, Maldives.webp"
                 },
                 "Patterns": null
               },
-              "Malahini Kuda Bandos Resort.jpeg": {
+              "Malahini Kuda Bandos Resort.webp": {
                 "Children": null,
                 "Asset": {
                   "ContentRootIndex": 0,
-                  "SubPath": "img/Hotel/Malahini Kuda Bandos Resort.jpeg"
+                  "SubPath": "img/Hotel/Malahini Kuda Bandos Resort.webp"
                 },
                 "Patterns": null
               },
-              "Nika Island Maldives.jpeg": {
+              "Nika Island Maldives.webp": {
                 "Children": null,
                 "Asset": {
                   "ContentRootIndex": 0,
-                  "SubPath": "img/Hotel/Nika Island Maldives.jpeg"
+                  "SubPath": "img/Hotel/Nika Island Maldives.webp"
                 },
                 "Patterns": null
               },
-              "Sun Siyam Iru Fushi Maldives.jpeg": {
+              "Original": {
+                "Children": {
+                  "LUX* South Ari Atoll, Maldives.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "img/Hotel/Original/LUX* South Ari Atoll, Maldives.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "Malahini Kuda Bandos Resort.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "img/Hotel/Original/Malahini Kuda Bandos Resort.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "Nika Island Maldives.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "img/Hotel/Original/Nika Island Maldives.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "Sun Siyam Iru Fushi Maldives.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "img/Hotel/Original/Sun Siyam Iru Fushi Maldives.jpeg"
+                    },
+                    "Patterns": null
+                  },
+                  "Sun Siyam World Maldives.jpeg": {
+                    "Children": null,
+                    "Asset": {
+                      "ContentRootIndex": 0,
+                      "SubPath": "img/Hotel/Original/Sun Siyam World Maldives.jpeg"
+                    },
+                    "Patterns": null
+                  }
+                },
+                "Asset": null,
+                "Patterns": null
+              },
+              "Sun Siyam Iru Fushi Maldives.webp": {
                 "Children": null,
                 "Asset": {
                   "ContentRootIndex": 0,
-                  "SubPath": "img/Hotel/Sun Siyam Iru Fushi Maldives.jpeg"
+                  "SubPath": "img/Hotel/Sun Siyam Iru Fushi Maldives.webp"
                 },
                 "Patterns": null
               },
-              "Sun Siyam World Maldives.jpeg": {
+              "Sun Siyam World Maldives.webp": {
                 "Children": null,
                 "Asset": {
                   "ContentRootIndex": 0,
-                  "SubPath": "img/Hotel/Sun Siyam World Maldives.jpeg"
+                  "SubPath": "img/Hotel/Sun Siyam World Maldives.webp"
                 },
                 "Patterns": null
               }
@@ -345,19 +463,161 @@
             },
             "Patterns": null
           },
-          "petr_in_studio.jpeg": {
+          "milan.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/petr_in_studio.jpeg"
+              "SubPath": "img/milan.webp"
             },
             "Patterns": null
           },
-          "studio.jpeg": {
+          "Original": {
+            "Children": {
+              ".DS_Store": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/.DS_Store"
+                },
+                "Patterns": null
+              },
+              "background.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/background.jpg"
+                },
+                "Patterns": null
+              },
+              "beach.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/beach.jpg"
+                },
+                "Patterns": null
+              },
+              "brazil.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/brazil.jpg"
+                },
+                "Patterns": null
+              },
+              "cashback.jpeg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/cashback.jpeg"
+                },
+                "Patterns": null
+              },
+              "diving.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/diving.jpg"
+                },
+                "Patterns": null
+              },
+              "dubai.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/dubai.jpg"
+                },
+                "Patterns": null
+              },
+              "guest1.png": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/guest1.png"
+                },
+                "Patterns": null
+              },
+              "guest2.jpeg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/guest2.jpeg"
+                },
+                "Patterns": null
+              },
+              "guest3.png": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/guest3.png"
+                },
+                "Patterns": null
+              },
+              "guest4.png": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/guest4.png"
+                },
+                "Patterns": null
+              },
+              "milan.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/milan.jpg"
+                },
+                "Patterns": null
+              },
+              "safari.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/safari.jpg"
+                },
+                "Patterns": null
+              },
+              "thai.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/thai.jpg"
+                },
+                "Patterns": null
+              },
+              "wedding.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "img/Original/wedding.jpg"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          },
+          "safari.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/studio.jpeg"
+              "SubPath": "img/safari.webp"
+            },
+            "Patterns": null
+          },
+          "thai.webp": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "img/thai.webp"
+            },
+            "Patterns": null
+          },
+          "user-icon.svg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "img/user-icon.svg"
             },
             "Patterns": null
           },
@@ -369,11 +629,11 @@
             },
             "Patterns": null
           },
-          "voronkov.jpeg": {
+          "wedding.webp": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
-              "SubPath": "img/voronkov.jpeg"
+              "SubPath": "img/wedding.webp"
             },
             "Patterns": null
           },
@@ -391,6 +651,22 @@
       },
       "js": {
         "Children": {
+          "index.min.js": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "js/index.min.js"
+            },
+            "Patterns": null
+          },
+          "map.js": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "js/map.js"
+            },
+            "Patterns": null
+          },
           "site.js": {
             "Children": null,
             "Asset": {
